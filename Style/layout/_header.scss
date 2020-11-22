@@ -1,0 +1,25 @@
+nav{
+  padding: 9px 0;
+  .logo{
+    a{
+      background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfume.png");
+      background-repeat: no-repeat;
+      width: 173px;
+      height: 44px;
+      display: block;
+      text-indent: 150%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+  }
+  ul{
+    margin-bottom: 0;
+    li{
+      font: normal normal normal 20px/30px SF Pro Text;
+    }
+    .material-icons{
+      vertical-align: middle;
+    }
+  }
+}

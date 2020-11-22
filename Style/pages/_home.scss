@@ -1,0 +1,93 @@
+.banner{
+  .container{
+    height: 870px;
+    @include phone(){
+      height: 480px;
+    }
+  }
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg");
+  background-size: cover;
+  button{
+    border: #fff solid 2px;
+    border-radius: 25px;
+  }
+}
+
+.main{
+  padding: 60px 0;
+
+  li{
+    padding: 0;
+  }
+  a{
+    font: normal normal 600 16px/24px PingFang TC;
+
+  }
+  p{
+    margin-bottom: 52px;
+    @include phone(){
+      margin-bottom: 20px;
+    }
+  }
+  img{
+    height: 550px;
+    @include phone(){
+      height: 350px;
+      margin-bottom: 8px;
+    }
+    padding: 0;
+  }
+  .photoL{
+      height: 1080px;
+    @include phone(){
+      height: 680px;
+      margin-bottom: 8px;
+    }
+  }
+  button{
+    border: #000 solid 2px;
+    border-radius: 25px;
+  }
+  @include phone(){
+    padding: 40px 0;
+
+  }
+}
+
+/*map*/
+.map{
+  padding: 40px 0;
+  @include phone(){
+    padding: 32px 0;
+  }
+  background-color: #E0E0E0;
+  img{
+    height: 540px;
+    @include phone(){
+      height: 350px;
+    }
+  }
+}
+
+/*story*/
+.story{
+  padding: 60px 0;
+  @include phone(){
+    padding: 40px 0;
+  }
+}
+
+/*subscription*/
+.subscription{
+  .container{
+    height: 600px;
+    padding: 60px 0;
+  }
+  .input-group, .form-control{
+    height: 60px;
+  }
+  background: transparent url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index10.jpg")  center right no-repeat padding-box;
+  background-size: cover;
+}
+
+

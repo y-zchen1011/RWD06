@@ -1,0 +1,21 @@
+footer{
+  padding: 20px 0;
+  p{
+    font: normal normal medium 14px/21px SF Pro Text;
+  }
+  a{
+    font: normal normal normal 20px/30px SF Pro Text;
+  }
+  .logoFooter {
+      a {
+        background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfumewhite.png");
+        background-repeat: no-repeat;
+        width: 173px;
+        height: 44px;
+        display: block;
+        text-indent: 150%;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+  }
+}

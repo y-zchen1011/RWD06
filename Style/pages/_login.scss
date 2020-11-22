@@ -1,0 +1,21 @@
+.menubar{
+  .container{
+    padding: 14px 0 ;
+    a{
+      font: normal normal normal 20px/30px SF Pro Text;
+    }
+  }
+}
+
+.login{
+  padding: 60px 0;
+  @include phone(){
+    padding: 40px 0;
+  }
+  img{
+    height: 730px;
+    @include phone(){
+      height: 220px;
+    }
+  }
+}
